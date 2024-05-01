@@ -1,0 +1,29 @@
+@import url("/src/styles/colors.css");
+nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px var(--Dark_Gray_Light_Mode_Input);
+  padding: 0 20px;
+}
+#scramble {
+  font-weight: 800;
+  font-size: 20px;
+}
+.dark_mode_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  font-size: 18px;
+}
+.dark_mode_button:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}

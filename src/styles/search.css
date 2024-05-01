@@ -1,0 +1,58 @@
+@import url('/src/styles/colors.css');
+
+.search_container{
+    margin-top: 30px;
+    width: 100%;
+    padding: 0 20px;   
+}
+form{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+form input{
+    width: 100%;
+    max-width: 508px;
+    height: 50px;
+    outline: none;
+    padding-left: 70px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px var(--Dark_Gray_Light_Mode_Input);
+}
+.search_result{
+    width: 100%;
+    height: 0;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px var(--Dark_Gray_Light_Mode_Input);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 20px;
+    transition: all 1s ease;
+}
+.search_result.active{
+    height: max-content;
+    max-height: 250px;
+    overflow-y: scroll;
+    transition: all 1s ease;
+}
+.results{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--Dark_Gray_Light_Mode_Input);
+    cursor: pointer;
+    color: var(--Dark_Gray_Light_Mode_Input);
+}
+form i{
+    font-size: 20px;
+    position: absolute;
+    top: 12px;
+    left: 34px;
+}
+input[type='text']{
+    color: var(--Dark_Gray_Light_Mode_Input);
+    font-size: 16px;
+}
+

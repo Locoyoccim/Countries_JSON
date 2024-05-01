@@ -1,0 +1,14 @@
+
+#card_container{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 650px) {
+    .filters{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

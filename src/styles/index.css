@@ -1,0 +1,57 @@
+@import url("/src/styles/colors.css");
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  background-color: var(--Very_Light_Gray_Light_Mode_Background);
+  padding-bottom: 20px;
+  overflow-x: hidden;
+  position: relative;
+}
+body.darkmode {
+  background-color: var(--Very_Dark_Blue_Dark_Mode_Background);
+
+  input,
+  ul,
+  button {
+    background-color: var(--Very_Dark_Blue_Dark_Mode_Background);
+  }
+  p,
+  input,
+  #scramble,
+  span,
+  h1,
+  ul,
+  button,
+  .arrow_back,
+  .link_tag,
+  .error_msj,
+  .home,
+  .home_button, .bi-search {
+    color: var(--White_Dark_Mode_Text_and_Light_Mode_Elements);
+  }
+  nav,
+  .link_tag,
+  .tag_container,
+  .back_button,
+  input,
+  ul,
+  .selected-option {
+    box-shadow: 0 0px 15px var(--Very_Dark_Blue_Light_Mode_Text);
+  }
+  .link_tag:hover,
+  .tag_container:hover,
+  .back_button:hover{
+    box-shadow: 0 0px 15px red;
+  }
+}

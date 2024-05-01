@@ -1,0 +1,53 @@
+@import url("/src/styles/colors.css");
+
+.error_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.content {
+    box-shadow: 0 0px 15px red;
+  width: 320px;
+  height: max-content;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+}
+.home_button {
+  width: max-content;
+  height: 40px;
+  box-shadow: 0 2px 8px var(--Dark_Gray_Light_Mode_Input);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 0 20px;
+  cursor: pointer;
+  color: var(--Very_Dark_Blue_Light_Mode_Text);
+  transition: all .3s ease;
+}
+.home_button:hover{
+    transform: scale(1.1);
+    transition: all .3s ease;
+    box-shadow: 0 0px 15px red;
+}
+.error_container .bi {
+  width: max-content;
+  height: max-content;
+}
+.cone {
+  font-size: 120px;
+  color: red;
+}
+.error_msj {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
