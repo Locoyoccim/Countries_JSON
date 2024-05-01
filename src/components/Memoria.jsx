@@ -11,7 +11,7 @@ function Memoria({children}){
     useEffect(()=>{
         const fetchData = async() => {
             try{ 
-                const response = await fetch('/data.json')
+                const response = await fetch('/src/data.json')
                 if(!response.ok){
                     throw new Error('Error en la carga de datos');
                 }
