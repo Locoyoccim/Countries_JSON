@@ -9,6 +9,7 @@ function Search({ filteredCountries }) {
   const [searchNav, setSearchNav] = useState("");
 
   function onChange(e) {
+    setInputValue(e.target.value)
     if (e.target.value !== "") {
       setInputValue(e.target.value);
       setSearchNav("active");
@@ -25,7 +26,8 @@ function Search({ filteredCountries }) {
   }
   function countryClick(v) {
     setInputValue(v);
-    setSearchNav('')
+    setSearchNav("");
+    filteredNames(v);
   }
 
   useEffect(() => {

@@ -8,7 +8,7 @@
   overflow: hidden;
   cursor: pointer;
   transition: .3s ease-in-out all;
-  height: 500px;
+  height: 346.66px;
   text-decoration: none;
   color: var(--Very_Dark_Blue_Light_Mode_Text);
   transform: translateX(-1420px);
@@ -24,22 +24,26 @@
 }
 .img_container {
   width: 100%;
-  height: 250px;
+  height: 160px;
 }
 .img_container img {
   width: 100%;
-  height: 250px;
+  height: 100%;
 }
 .information {
+  margin-top: 15px;
   padding: 0px 40px;
   display: grid;
   gap: 10px;
 }
+.information h1{
+  font-size: 18px;
+  font-weight: 900;
+}
 .information p {
   margin: 0;
   padding: 0;
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 700;
 }
 .information div {
   display: flex;
@@ -47,7 +51,7 @@
 }
 .information span {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 14px;
 }
 @media screen and (min-width: 1024px) {
     .tag_container{

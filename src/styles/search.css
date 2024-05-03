@@ -22,6 +22,7 @@ form input{
 }
 .search_result{
     width: 100%;
+    max-width: 508px;
     height: 0;
     background-color: white;
     margin-top: 10px;
